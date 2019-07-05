@@ -508,7 +508,7 @@ class LINE:
 
       print("===============[Ayzbot]================")
       print("        Thanks for TCR and my friend")
-      print("===============[© Ayzline]================")
+      print("===============[© Ayz ]================")
       print("mid -> " + prof.mid)
       print("name -> " + prof.displayName)
       print("authToken -> " + self.authToken)
