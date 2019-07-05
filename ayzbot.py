@@ -10,7 +10,7 @@ from googletrans import Translator
 from gtts import gTTS
 import time,random,sys,json,codecs,threading,glob,urllib,urllib2,urllib3,re,ast,os,subprocess,requests,tempfile
 
-nadya = LINETCR.LINE()
+ayz = LINETCR.LINE()
 #ayz.login(qr=True)
 ayz.login(token='EGL2m0bgkMsQ5CBdMab2.kvzI09Jb8kpFnmC2O9SWCG.4qRY+HxfW1q9b/lQUN6moKQ+U5Nx23Fdep5e7Lug9ec=')
 ayz.loginResult()
