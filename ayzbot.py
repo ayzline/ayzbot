@@ -2120,7 +2120,7 @@ def bot(op):
                        msg.contentMetadata = {'mid': 'u295662d3d8c1f0a3df34c736a3db3072'}
                        ayz.sendMessage(msg)
 
-elif "tag all" == msg.text.lower():
+            elif "tag all" == msg.text.lower():
                  group = ayz.getGroup(msg.to)
                  nama = [contact.mid for contact in group.members]
                  nm1, nm2, nm3, nm4, nm5, jml = [], [], [], [], [], len(nama)
