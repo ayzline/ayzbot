@@ -2137,7 +2137,7 @@ def bot(op):
                     for i in range(0, 20):
                         nm1 += [nama[i]]
                     summon(msg.to, nm1)
-                    for j in range(21, 40):
+                    for j in range(20, 40):
                         nm2 += [nama[j]]
                     summon(msg.to, nm2)
                     for k in range(41, len(nama)-1):
@@ -2147,10 +2147,10 @@ def bot(op):
                     for i in range(0, 20):
                         nm1 += [nama[i]]
                     summon(msg.to, nm1)
-                    for j in range(21, 40):
+                    for j in range(20, 40):
                         nm2 += [nama[j]]
                     summon(msg.to, nm2)
-                    for k in range(41, 60):
+                    for k in range(40, 60):
                         nm3 += [nama[k]]
                     summon(msg.to, nm3)
                     for l in range(61, len(nama)-1):
@@ -2160,13 +2160,13 @@ def bot(op):
                     for i in range(0, 20):
                         nm1 += [nama[i]]
                     summon(msg.to, nm1)
-                    for j in range(21, 40):
+                    for j in range(20, 40):
                         nm2 += [nama[j]]
                     summon(msg.to, nm2)
-                    for k in range(41, 60):
+                    for k in range(40, 60):
                         nm3 += [nama[k]]
                     summon(msg.to, nm3)
-                    for l in range(61, 80):
+                    for l in range(60, 80):
                         nm4 += [nama[l]]
                     summon(msg.to, nm4)
                     for m in range(81, len(nama)-1):
@@ -2196,7 +2196,7 @@ def bot(op):
                     for i in range(0, 20):
                         nm1 += [nama[i]]
                     summon(msg.to, nm1)
-                    for j in range(21, 40):
+                    for j in range(20, 40):
                         nm2 += [nama[j]]
                     summon(msg.to, nm2)
                     for k in range(41, len(nama)-1):
@@ -2206,10 +2206,10 @@ def bot(op):
                     for i in range(0, 20):
                         nm1 += [nama[i]]
                     summon(msg.to, nm1)
-                    for j in range(21, 40):
+                    for j in range(20, 40):
                         nm2 += [nama[j]]
                     summon(msg.to, nm2)
-                    for k in range(41, 60):
+                    for k in range(40, 60):
                         nm3 += [nama[k]]
                     summon(msg.to, nm3)
                     for l in range(61, len(nama)-1):
@@ -2219,13 +2219,61 @@ def bot(op):
                     for i in range(0, 20):
                         nm1 += [nama[i]]
                     summon(msg.to, nm1)
-                    for j in range(21, 40):
+                    for j in range(20, 40):
                         nm2 += [nama[j]]
                     summon(msg.to, nm2)
-                    for k in range(41, 60):
+                    for k in range(40, 60):
                         nm3 += [nama[k]]
                     summon(msg.to, nm3)
-                    for l in range(61, 80):
+                    for l in range(60, 80):
+                        nm4 += [nama[l]]
+                    summon(msg.to, nm4)
+                    for m in range(81, len(nama)-1):
+                        nm5 += [nama[m]]
+                    summon(msg.to, nm5)
+                 if jml > 101:                 if jml <= 21:
+                    summon(msg.to, nama)
+                 if jml > 21 and jml < 41:
+                    for i in range(0, 20):
+                        nm1 += [nama[i]]
+                    summon(msg.to, nm1)
+                    for j in range(21, len(nama)-1):
+                        nm2 += [nama[j]]
+                    summon(msg.to, nm2)
+                 if jml > 41 and jml < 61:
+                    for i in range(0, 20):
+                        nm1 += [nama[i]]
+                    summon(msg.to, nm1)
+                    for j in range(20, 40):
+                        nm2 += [nama[j]]
+                    summon(msg.to, nm2)
+                    for k in range(41, len(nama)-1):
+                        nm3 += [nama[k]]
+                    summon(msg.to, nm3)
+                 if jml > 61  and jml < 81:
+                    for i in range(0, 20):
+                        nm1 += [nama[i]]
+                    summon(msg.to, nm1)
+                    for j in range(20, 40):
+                        nm2 += [nama[j]]
+                    summon(msg.to, nm2)
+                    for k in range(40, 60):
+                        nm3 += [nama[k]]
+                    summon(msg.to, nm3)
+                    for l in range(61, len(nama)-1):
+                    	nm4 += [nama[l]]
+                    summon(msg.to, nm4)
+                 if jml > 81  and jml < 101:
+                    for i in range(0, 20):
+                        nm1 += [nama[i]]
+                    summon(msg.to, nm1)
+                    for j in range(20, 40):
+                        nm2 += [nama[j]]
+                    summon(msg.to, nm2)
+                    for k in range(40, 60):
+                        nm3 += [nama[k]]
+                    summon(msg.to, nm3)
+                    for l in range(60, 80):
                         nm4 += [nama[l]]
                     summon(msg.to, nm4)
                     for m in range(81, len(nama)-1):
