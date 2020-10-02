@@ -12,7 +12,7 @@ import time,random,sys,json,codecs,threading,glob,urllib,urllib2,urllib3,re,ast,
 
 ayz = LINETCR.LINE()
 #ayz.login(qr=True)
-ayz.login(token='EV4SYQoBfBBLm1VIyXB2.kvzI09Jb8kpFnmC2O9SWCG.Rn7Dej8x7sCuGe358xCiyAyrES6zO8TS/USBZbk+bPY=')
+ayz.login(token='kq98KKSrKpCzRdPBrWA5jgDH7I20H4xxGmlRF5YDtSfmk3Ix488jKlT1sFXnbl0x1nVigzIZjQCx3Ql3O/Q4ETt+v+cR9reMhKksqF79lXp5uUsy8Ck6UL8XoXMKTR2hQIiqF4+jOcUE8+ewZNnUogdB04t89/1O/w1cDnyilFU=')
 ayz.loginResult()
 print "Ayz-Login Success\n\n=====[Sukses Login]====="
 
